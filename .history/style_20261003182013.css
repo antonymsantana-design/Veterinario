@@ -1,0 +1,556 @@
+```css
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    color: #333;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    background-color: #ffffff;
+    min-height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #e8f5ee;
+}
+
+.conteudoH {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.logoIMG {
+    width: 120px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.logoIMG:hover {
+    transform: scale(1.05);
+}
+
+.logoH {
+    color: #39A96B;
+    font-size: 22px;
+}
+
+/* ================= LINKS ================= */
+
+.direitaH {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #39A96B;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background-color: #39A96B;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* ================= BANNER ================= */
+
+.conteudo {
+    background-image: url("image/Cuidando de Quem Amamos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    min-height: 400px;
+}
+
+/* ================= TÍTULOS ================= */
+
+.Our {
+    padding-top: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #2e7d50;
+    font-size: 30px;
+}
+
+hr {
+    width: 70px;
+    margin: 0 auto 25px auto;
+    border: none;
+    border-top: 3px solid #39A96B;
+    border-radius: 5px;
+}
+
+/* ================= SOBRE NÓS ================= */
+
+.AbH2 {
+    padding: 12px 20px;
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+}
+
+.AbH3 {
+    max-width: 850px;
+    margin: auto;
+    padding: 10px 20px 25px;
+    text-align: center;
+    line-height: 1.7;
+    color: #666;
+}
+
+/* ================= DIFERENCIAIS ================= */
+
+.topics {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 30px 40px;
+    flex-wrap: wrap;
+}
+
+.topc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 320px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.topc:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.topcIMG {
+    width: 270px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.topcH {
+    padding: 15px 5px 8px;
+    color: #39A96B;
+    font-size: 18px;
+}
+
+.topcP {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* ================= CARDS ================= */
+
+.card {
+    background-color: #FDEEC7;
+    width: 270px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.12);
+}
+
+.card h4 {
+    color: #22C55E;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 20px 30px;
+    flex-wrap: wrap;
+}
+
+.icone {
+    width: 120px;
+    height: 120px;
+    padding-bottom: 10px;
+}
+
+/* ================= BOTÕES ================= */
+
+.btnDiv {
+    display: flex;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 50px;
+    background-color: #22C55E;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ================= AGENDAMENTO ================= */
+
+.agendar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 30px;
+    gap: 40px;
+}
+
+.form {
+    background-color: #ECF2F7;
+    width: 600px;
+    min-height: 300px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.formCima {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quadrado {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 200px);
+    gap: 25px 50px;
+}
+
+.esq {
+    font-size: 25px;
+}
+
+.formu {
+    width: 240px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.forms {
+    width: 500px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.agendarbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 512px;
+    height: 40px;
+    background-color: #22C55E;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.agendarbtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btnAgendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ================= SERVIÇOS ================= */
+
+.primeiro {
+    background-color: #ffffff;
+    width: 300px;
+    padding: 18px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.primeiro:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 300px);
+    gap: 35px;
+    padding: 20px;
+}
+
+.cards .primeiro img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: #2e7d50;
+}
+
+.texto {
+    color: #3C2415;
+    line-height: 1.5;
+}
+
+.preco {
+    color: #d49b55;
+    font-weight: bold;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #39A96B;
+    border-top: 1px solid #d9eee2;
+    margin-top: 30px;
+}
+
+.cimaF {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+}
+
+.logoIMGF {
+    width: 120px;
+    cursor: pointer;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.baixoF {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #eeeeee;
+    font-size: 14px;
+}
+
+/* ================= CELULAR ================= */
+
+@media (max-width: 768px) {
+
+    header {
+        min-height: auto;
+        padding: 15px 0;
+    }
+
+    .conteudoH {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .imagem {
+        gap: 8px;
+    }
+
+    .logoIMG {
+        width: 75px;
+    }
+
+    .logoH {
+        font-size: 18px;
+    }
+
+    .links {
+        gap: 5px;
+        font-size: 15px;
+    }
+
+    .links a {
+        padding: 8px 10px;
+    }
+
+    .conteudo {
+        height: 350px;
+        min-height: 0;
+    }
+
+    .Our {
+        font-size: 25px;
+        padding-top: 25px;
+    }
+
+    .AbH2 {
+        font-size: 20px;
+    }
+
+    .AbH3 {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .topics {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .topc {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .topcIMG {
+        width: 100%;
+        height: 220px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 25px;
+    }
+
+    .agendar {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+
+    .esq {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .esq h1 {
+        font-size: 28px;
+    }
+
+    .esq p {
+        font-size: 15px;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .quadrado {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-right: 0;
+        justify-items: center;
+    }
+
+    .formu {
+        width: 80%;
+    }
+
+    .forms {
+        width: 80%;
+    }
+
+    .quadrado > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .quadrado label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .agendarbtn {
+        width: 80%;
+    }
+
+    .cimaF {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .esquerda {
+        align-items: center;
+    }
+}
+

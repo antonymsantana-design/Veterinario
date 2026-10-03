@@ -1,0 +1,56 @@
+const body = document.querySelector("body");
+const header = document.querySelector("header");
+const footer = document.querySelector("footer");
+
+
+body.innerHTML = `<div class="conteudu" id="conteudu">
+
+        <h2>Deixe seu feedback</h2>
+        <br>
+
+        <div class="formu" id="formu">
+            <br>
+
+            <form action="https://formsubmit.co/antony.m.santana@aluno.senai.br" method="POST">
+
+                <input type="hidden" name="_subject" value="Nova mensagem do site">
+                <input type="hidden" name="_template" value="table">
+
+                <div class="nome">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+
+
+                <div class="email">
+                    <label for="Email">E-mail</label>
+                    <input type="email" name="Email" id="Email" required>
+                </div>
+
+
+
+                <div class="avaliacao">
+                    <label>Avaliação:</label>
+
+                    <input type="radio" name="avaliacao" id="bom" value="Bom">
+                    <label for="bom">Bom</label>
+
+                    <input type="radio" name="avaliacao" id="excelente" value="Excelente">
+                    <label for="excelente">Excelente</label>
+
+                </div>
+                <br><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <br>
+                <textarea name="mensagem" id="mensagem" rows="5" cols="40"></textarea>
+
+                <br><br>
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucsses.html">
+
+                <button type="submit" class="buto" onClick="form()">ENVIAR AVALIAÇÃO</button>
+            </form>
+        </div>
+    </div>`;

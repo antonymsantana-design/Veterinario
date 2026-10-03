@@ -1,0 +1,341 @@
+```css
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    background-color: #ffffff;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #39a96b;
+}
+
+.conteudoH {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.imagem {
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.logoIMG {
+    width: 150px;
+    cursor: pointer;
+}
+
+.logoH {
+    color: #39a96b;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #39a96b;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+.aLinks:hover {
+    background-color: #39a96b;
+    color: white;
+    border-radius: 5px;
+    transform: translateY(-3px);
+}
+
+.direitaH {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* banner */
+
+.conteudo {
+    background-image: url(image/Cuidando\ de\ Quem\ Amamos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+/* titulo */
+
+.Our {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+hr {
+    width: 70px;
+    margin: 0 auto 20px auto;
+    border: none;
+    border-top: 2px solid #22c55e;
+}
+
+/* cards */
+
+.cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 300px);
+    gap: 30px;
+    padding: 20px;
+    margin: 0;
+}
+
+.primeiro {
+    background-color: #f0f9f4;
+    width: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cards .primeiro img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.primeiro:hover {
+    transform: translateY(-3px);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto {
+    color: #3c2415;
+}
+
+.preco {
+    color: #e4c8a4;
+}
+
+/* formulario */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.16);
+    background-color: white;
+    padding: 25px;
+    width: 650px;
+    margin: 0 auto 20px auto;
+    border-radius: 7px;
+}
+
+form h3 {
+    width: 100%;
+    color: #39a96b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.campo label {
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+.buto {
+    padding: 12px;
+    background-color: #22c55e;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buto:hover {
+    background-color: #1da851;
+}
+
+.texto-form {
+    text-align: center;
+    font-size: 13px;
+    color: #777;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #39a96b;
+    border-top: 1px solid #39a96b;
+}
+
+.cimaF {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    align-items: center;
+    padding: 15px;
+}
+
+.logoIMGF {
+    width: 120px;
+    cursor: pointer;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.baixoF {
+    border-top: 1px solid #eee;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+}
+
+/* celular */
+
+@media (max-width: 768px) {
+
+    header {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .conteudoH {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .imagem {
+        margin: 0;
+        gap: 10px;
+    }
+
+    .logoIMG {
+        width: 80px;
+        height: 80px;
+    }
+
+    .logoH {
+        font-size: 20px;
+    }
+
+    .links {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .conteudo {
+        height: 400px;
+    }
+
+    .Our {
+        font-size: 25px;
+    }
+
+    hr {
+        width: 60px;
+    }
+
+    /* cards */
+
+    .cards {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .primeiro {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    /* formulario */
+
+    form {
+        width: 90%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .buto {
+        width: 80%;
+    }
+
+    /* footer */
+
+    footer {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .cimaF {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .esquerda {
+        align-items: center;
+    }
+}
+```

@@ -1,0 +1,513 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #39a96b;
+}
+
+.conteudoH {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+
+.imagem {
+  margin-left: 20px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.logoIMG {
+  width: 170px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.logoH {
+  color: white;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-right: 130px;
+  font-size: 18px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #39a96b;
+  transition: 0.5s ease;
+}
+
+.aLinks:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  background-color: #39a96b;
+  color: #f5f5f5;
+  border-radius: 5px;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnDiv {
+  display: flex;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 140px;
+  height: 50px;
+  background-color: #22c55e;
+  border: none;
+  color: white;
+  align-items: center;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.direitaH {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo {
+  background-image: url(image/Cuidando\ de\ Quem\ Amamos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  color: white;
+}
+
+.card {
+  background-color: #fdeec7;
+  width: 270px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card h4 {
+  color: #22c55e;
+}
+
+.icone {
+  width: 120px;
+  height: 120px;
+  padding-bottom: 10px;
+}
+
+.Our {
+  padding-top: 15px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+hr {
+  color: #22c55e;
+  text-align: center;
+  margin-left: 920px;
+  margin-right: 920px;
+}
+
+.agendar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.form {
+  background-color: #ecf2f7;
+  width: 600px;
+  height: 300px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.formCima {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quadrado {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 200px);
+  gap: 30px;
+  column-gap: 70px;
+  margin-right: 40px;
+}
+
+.esq {
+  font-size: 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  color: #39a96b;
+  border-top: 1px solid #39a96b;
+}
+
+.AbH2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.AbH3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  margin-left: 425px;
+  margin-right: 425px;
+}
+
+.topc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 350px;
+}
+
+.topics {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 25px;
+}
+
+.topcIMG {
+  width: 290px;
+  height: 260px;
+  border-radius: 25px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.topcH {
+  padding-bottom: 10px;
+}
+
+.cimaF {
+  display: flex;
+  justify-content: center;
+  gap: 450px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.logoIMGF {
+  width: 140px;
+  cursor: pointer;
+}
+
+.esquerda {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formu {
+  width: 240px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.forms {
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.agendarbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 512px;
+  height: 40px;
+  background-color: #22c55e;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.agendarbtn:hover {
+  transform: translateY(-5px);
+}
+
+.btnAgendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*pagina de serviços*/
+
+.primeiro {
+  background-color: #f0f9f4;
+  width: 300px;
+  padding-bottom: 13px;
+  margin-left: 20px;
+  text-align: center;
+  padding-top: 13px;
+  flex-wrap: wrap;
+  border-radius: 15px;
+}
+
+.cards {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 400px);
+  gap: 50px;
+  padding-bottom: 15px;
+}
+.cards .primeiro img {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.texto {
+  color: #3c2415;
+}
+.preco {
+  color: #e4c8a4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.16);
+  padding: 20px;
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+input, select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.buto{
+
+    wid
+}
+
+
+/* celular */
+
+@media (max-width: 768px) {
+  /* header */
+  header {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .conteudoH {
+    flex-direction: column;
+    padding-right: 0;
+    gap: 15px;
+  }
+
+  .imagem {
+    margin-left: 0;
+    margin-top: 0;
+    gap: 10px;
+  }
+
+  .logoIMG {
+    width: 80px;
+    height: 80px;
+  }
+
+  .logoH {
+    font-size: 20px;
+  }
+
+  .direitaH {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .links {
+    padding-right: 0;
+    font-size: 16px;
+  }
+
+  .conteudo {
+    height: 400px;
+  }
+
+  .texto {
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 400px;
+    font-size: 25px;
+  }
+
+  .texto small {
+    font-size: 14px;
+  }
+
+  .Our {
+    font-size: 25px;
+  }
+
+  hr {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card {
+    width: 80%;
+    max-width: 270px;
+  }
+
+  .agendar {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+
+  .esq {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .esq h1 {
+    font-size: 28px;
+  }
+
+  .esq p {
+    font-size: 15px;
+  }
+
+  .form {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .forms {
+    width: 80%;
+  }
+
+  .quadrado {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-right: 0;
+  }
+
+  .formu {
+    width: 80%;
+  }
+
+  .quadrado > div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .quadrado label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .agendarbtn {
+    width: 80%;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .esquerda {
+    align-items: center;
+  }
+}

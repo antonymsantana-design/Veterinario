@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cebola Hair</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header>
+    <div class="conteudoH" id="conteudoH">
+      <div class="imagem" id="imagem">
+        <img src="image/logo.png" alt="logo" class="logoIMG" id="logoIMG" />
+      </div>
+      <div class="direitaH">
+        <div class="links" id="links">
+          <a href="serviços.html" class="aLinks" id="servA">Serviços</a>
+          <a href="CONTATOS.HTML" class="aLinks" id="contatosA">Contatos</a>
+          <a href="Team.html" class="aLinks" id="contatosA">Equipe</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <body>
+    <h2 class="Our" id="servicosT">Solicite um Atendimento</h2>
+    <hr />
+
+    <div class="context">
+    <form
+      action="https://formsubmit.co/antonymsantana@gmail.com"
+      method="POST"
+    >
+      <input type="hidden" name="_subject" value="Nova solicitação - PetVida" />
+      <input type="hidden" name="_template" value="table" />
+
+      <h3>Dados do cliente</h3>
+
+      <div class="campo">
+        <label for="nome">Nome completo</label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Digite seu nome"
+          required
+        />
+      </div>
+
+      <div class="campo">
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite seu e-mail"
+          required
+        />
+      </div>
+
+      <div class="campo">
+        <label for="telefone">Telefone</label>
+        <input
+          type="tel"
+          name="telefone"
+          id="telefone"
+          placeholder="Digite seu telefone"
+          required
+        />
+      </div>
+
+      <h3>Dados do animal</h3>
+
+      <div class="campo">
+        <label for="animal">Nome do animal</label>
+        <input
+          type="text"
+          name="animal"
+          id="animal"
+          placeholder="Digite o nome do seu pet"
+          required
+        />
+      </div>
+
+      <div class="campo">
+        <label for="tipo">Tipo de animal</label>
+
+        <select name="tipo_animal" id="tipo" required>
+          <option value="">Selecione uma opção</option>
+          <option value="Cachorro">Cachorro</option>
+          <option value="Gato">Gato</option>
+          <option value="Outro">Outro</option>
+        </select>
+      </div>
+
+      <h3>Serviço desejado</h3>
+
+      <div class="campo">
+        <label for="servico">Escolha o serviço</label>
+
+        <select name="servico" id="servico" required>
+          <option value="">Selecione uma opção</option>
+          <option value="Consulta veterinária">Consulta veterinária</option>
+          <option value="Vacinação">Vacinação</option>
+          <option value="Banho e tosa">Banho e tosa</option>
+          <option value="Exames laboratoriais">Exames laboratoriais</option>
+          <option value="Atendimento de emergência">
+            Atendimento de emergência
+          </option>
+          <option value="Acompanhamento veterinário">
+            Acompanhamento veterinário
+          </option>
+        </select>
+      </div>
+
+      <h3>Observações</h3>
+
+      <div class="campo">
+        <label for="mensagem">Mensagem / Observações</label>
+
+        <textarea
+          name="mensagem"
+          id="mensagem"
+          rows="5"
+          placeholder="Informe aqui alguma informação importante sobre o animal ou sobre o atendimento que deseja solicitar."
+        ></textarea>
+      </div>
+
+      <button type="submit" class="buto">Enviar solicitação</button>
+
+      <p class="texto-form">
+        Após o envio, sua solicitação será encaminhada para a equipe da PetVida.
+      </p>
+    </form>
+    </div>
+  </body>
+  <footer id="footer">
+    <div class="cimaF">
+      <div class="direita">
+        <img src="image/logo.png" alt="logo" class="logoIMGF" id="logoIMG" />
+      </div>
+
+      <div class="esquerda">
+        <p>(13) 13131-1313</p>
+        <p>@ClinicaveterinariaPT</p>
+        <p>avenida coelho e campos, 13 - Getulio vargas SE</p>
+      </div>
+    </div>
+    <div class="baixoF">
+      <p>© 2026 PetVida Clínica Veterinária. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</html>
