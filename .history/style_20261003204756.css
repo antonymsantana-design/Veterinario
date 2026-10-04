@@ -431,12 +431,6 @@ input, select, textarea{
     font-weight: lighter;
     margin-bottom: 11px;
      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.367);
-     transition: 0.3s ease;
-}
-
-.buto:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.4);
 }
 
 
